@@ -9,7 +9,8 @@
 #import "PageContentViewController.h"
 
 @interface PageContentViewController ()
-
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *imgView;
 @end
 
 @implementation PageContentViewController
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    _myLabel.text = _strTitle;
+    _imgView.image = [UIImage imageNamed:_strPhotoName];
 }
 
 /*

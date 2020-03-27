@@ -14,6 +14,7 @@
 		3A4A70CE242E323100F9AF97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4A70CD242E323100F9AF97 /* Assets.xcassets */; };
 		3A4A70D1242E323100F9AF97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4A70CF242E323100F9AF97 /* LaunchScreen.storyboard */; };
 		3A4A70D4242E323100F9AF97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A70D3242E323100F9AF97 /* main.m */; };
+		3A4A70DF242E33E800F9AF97 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A70DE242E33E800F9AF97 /* PageContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		3A4A70D0242E323100F9AF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A4A70D2242E323100F9AF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A4A70D3242E323100F9AF97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A4A70DD242E33E800F9AF97 /* PageContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		3A4A70DE242E33E800F9AF97 /* PageContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,9 @@
 		3A4A70C0242E322F00F9AF97 /* BookReaderObjC */ = {
 			isa = PBXGroup;
 			children = (
+				3A4A70DC242E328E00F9AF97 /* Controller */,
+				3A4A70DB242E328200F9AF97 /* AppDelegate */,
+				3A4A70DA242E327900F9AF97 /* Model */,
 				3A4A70C1242E322F00F9AF97 /* AppDelegate.h */,
 				3A4A70C2242E322F00F9AF97 /* AppDelegate.m */,
 				3A4A70C4242E322F00F9AF97 /* SceneDelegate.h */,
@@ -74,6 +80,29 @@
 				3A4A70D3242E323100F9AF97 /* main.m */,
 			);
 			path = BookReaderObjC;
+			sourceTree = "<group>";
+		};
+		3A4A70DA242E327900F9AF97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A4A70DB242E328200F9AF97 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3A4A70DC242E328E00F9AF97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3A4A70DD242E33E800F9AF97 /* PageContentViewController.h */,
+				3A4A70DE242E33E800F9AF97 /* PageContentViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +177,7 @@
 			files = (
 				3A4A70C9242E322F00F9AF97 /* ViewController.m in Sources */,
 				3A4A70C3242E322F00F9AF97 /* AppDelegate.m in Sources */,
+				3A4A70DF242E33E800F9AF97 /* PageContentViewController.m in Sources */,
 				3A4A70D4242E323100F9AF97 /* main.m in Sources */,
 				3A4A70C6242E322F00F9AF97 /* SceneDelegate.m in Sources */,
 			);

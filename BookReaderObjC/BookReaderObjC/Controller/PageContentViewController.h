@@ -11,7 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface PageContentViewController : UIViewController
-
+@property NSString *strTitle;
+@property NSString *strPhotoName;
+@property int pageIndex;
 @end
 
 NS_ASSUME_NONNULL_END
